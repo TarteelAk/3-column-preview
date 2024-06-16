@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 750px;
+    border-radius: 8px;
+    color: white;
+
+
+}
+
+img {
+    width: 50px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+p {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 4rem;
+}
+
+button {
+    border-radius: 20px;
+    width: fit-content;
+    padding: 8px 19px;
+    border: 2px solid white;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Bright-orange);
+    height: auto;
+    padding: 30px;
+    height: 370px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.card1 button {
+    background-color: var(--Bright-orange);
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Dark-cyan);
+    height: auto;
+    padding: 30px;
+    height: 370px;
+
+}
+
+.card2 button  {
+    background-color: var(--Dark-cyan);
+}
+
+.card3 {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Very-dark-cyan);
+    height: auto;
+    padding: 30px;
+    height: 370px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card3 button  {
+    background-color: var(--Very-dark-cyan);
+   
+}
